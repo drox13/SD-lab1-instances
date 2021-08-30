@@ -17,9 +17,5 @@ app.listen(port, () => {
  }
  
  app.get('/status', (req, res) => {
-   if(between(1,5) == 3) {
-     res.sendStatus(500)
-   } else {
-     res.sendStatus(200)
-   }
+     res.sendStatus(200);
  })
