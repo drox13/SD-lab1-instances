@@ -10,12 +10,6 @@ app.listen(port, () => {
    console.log(`Example app listening at http://localhost:${port}`);
  });
 
- function between(min, max) {  
-   return Math.floor(
-     Math.random() * (max - min) + min
-   )
- }
- 
  app.get('/status', (req, res) => {
      res.sendStatus(200);
  })
