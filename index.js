@@ -3,7 +3,7 @@ var app = express();
 const port = 9800;
 
 app.get('/', function(req, res){
-   res.send("Esta es una instancia HOLA!");
+   res.send("Esta es una instancia HOLA COMPAÑEROS!");
 });
 
 app.listen(port, () => {
